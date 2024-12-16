@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title>Responsive Card Layout with Form</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-container">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            AluraGeek
+        </div>
+        <div class="left-container">
+            <div class="left-container-title">
+                Mis productos
+            </div>
+            <div class="card">
+                <img alt="Placeholder image of a scenic landscape" height="200"
+                    src="https://storage.googleapis.com/a1aa/image/ips8A3imPMZ8ENtWWAgMZ9wAEoi5BBDf9xPtE6OK5cNsGB8JA.jpg"
+                    width="300" />
+                <div class="card-content">
+                    <h3 class="card-title">
+                        Card Title 1
+                    </h3>
+                    <div class="card-footer">
+                        <span class="card-price">
+                            $19.99
+                        </span>
+                        <i class="fas fa-trash card-trash"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img alt="Placeholder image of a city skyline" height="200"
+                    src="https://storage.googleapis.com/a1aa/image/K9BdCiTfoNSOYiJdhjTw7b68diaUXFt0afKnMwH2XVgWNC4TA.jpg"
+                    width="300" />
+                <div class="card-content">
+                    <h3 class="card-title">
+                        Card Title 2
+                    </h3>
+                    <div class="card-footer">
+                        <span class="card-price">
+                            $29.99
+                        </span>
+                        <i class="fas fa-trash card-trash"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+        <div class="right-container">
+            <div class="right-container-title">
+                Agregar producto
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="image">
+                        Image URL
+                    </label>
+                    <input id="image" name="image" placeholder="Enter image URL" type="text" />
+                </div>
+                <div class="form-group">
+                    <label for="title">
+                        Title
+                    </label>
+                    <input id="title" name="title" placeholder="Enter title" type="text" />
+                </div>
+                <div class="form-group">
+                    <label for="description">
+                        Description
+                    </label>
+                    <textarea id="description" name="description" placeholder="Enter description" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
