@@ -49,6 +49,14 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
+.cards {
+    flex: 1 1 calc(50% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
 .card {
     flex: 1 1 calc(50% - 20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

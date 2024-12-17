@@ -1,3 +1,7 @@
+export const conexionAPI = {
+    conexion, listarProductos
+}
+
 async function conexion() {
     const conexion = await fetch('http://192.168.1.34:3001/productos');
     const conexionJSON = await conexion.json();
@@ -6,9 +10,7 @@ async function conexion() {
 
 async function listarProductos() {
   const productos = await conexion();
-  productos.forEach((producto) => {
-    console.log(producto);
-  });
+  return productos;
 }
 
-document.addEventListener('DOMContentLoaded', listarProductos());
+//document.addEventListener('DOMContentLoaded', listarProductos());
