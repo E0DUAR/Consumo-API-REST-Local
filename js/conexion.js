@@ -1,7 +1,8 @@
 export const conexionAPI = {
   conexion,
   listarProductos,
-  crearProducto
+  crearProducto,
+  eliminarProducto
 };
 
 async function conexion() {
@@ -33,4 +34,19 @@ async function crearProducto(nombre, precio, imagen) {
   }
 
   return conexionJSON;
+}
+
+async function eliminarProducto(id) {
+
+  console.log("id desde eliminarProducto", id);
+
+  const conexion = await fetch(`http://192.168.1.34:3001/productos/${id}`, {
+    method: "DELETE",
+  });
+
+  if (!conexion.ok) {
+    throw new Error(`Ha ocurrido un error al eliminar el producto en el servidor. Status: ${conexion.status}`);
+  }
+
+  return await conexion.json();
 }
