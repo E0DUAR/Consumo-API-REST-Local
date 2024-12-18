@@ -27,25 +27,29 @@
             <div class="right-container-title">
                 Agregar producto
             </div>
-            <form>
+            <form data-formulario>
+
                 <div class="form-group">
-                    <label for="image">
-                        Image URL
+                    <label for="nombre">
+                        Nombre
                     </label>
-                    <input id="image" name="image" placeholder="Enter image URL" type="text" />
+                    <input id="nombre" name="nombre" placeholder="Escribe el nombre" type="text" data-nombre/>
                 </div>
+
                 <div class="form-group">
-                    <label for="title">
-                        Title
+                    <label for="precio">
+                        Precio
                     </label>
-                    <input id="title" name="title" placeholder="Enter title" type="text" />
+                    <input id="precio" name="precio" placeholder="Escribe el precio" type="text" data-precio/>
                 </div>
+
                 <div class="form-group">
-                    <label for="description">
-                        Description
+                    <label for="imagen">
+                        Imagen URL
                     </label>
-                    <textarea id="description" name="description" placeholder="Enter description" rows="4"></textarea>
+                    <input id="imagen" name="imagen" placeholder="Ingresa la URL de la imagen" type="text" data-imagen/>
                 </div>
+
                 <div class="form-group">
                     <button type="submit">
                         Enviar
@@ -56,6 +60,7 @@
     </div>
     <script type="module" src="./js/conexion.js"></script>
     <script type="module" src="./js/listarProductos.js"></script>
+    <script type="module" src="./js/crearProducto.js"></script>
 </body>
 
 </html>

@@ -8,7 +8,7 @@ async function listarProductos() {
 
     listarProductosAPI.forEach((producto) => {
       contenedorProductos.appendChild(
-        crearProducto(producto.titulo, producto.precio, producto.imagen)
+        crearProducto(producto.nombre, producto.precio, producto.imagen)
       );
     });
   } catch (error) {
@@ -17,7 +17,7 @@ async function listarProductos() {
   }
 }
 
-function crearProducto(titulo, precio, imagen) {
+function crearProducto(nombre, precio, imagen) {
   const producto = document.createElement("div");
   producto.classList.add("card");
   producto.innerHTML = `
@@ -27,7 +27,7 @@ function crearProducto(titulo, precio, imagen) {
                             width="300" />
                         <div class="card-content">
                             <h3 class="card-title">
-                                ${titulo}
+                                ${nombre}
                             </h3>
                             <div class="card-footer">
                                 <span class="card-price">
