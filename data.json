@@ -1,33 +1,27 @@
 {
   "productos": [
     {
-      "id": "1",
-      "nombre": "Intercomunicador de video IP Dahua VTO2111D-WP con cámara de 1MP y visión nocturna",
-      "precio": "150000",
+      "id": "48d0",
+      "nombre": "Producto 1",
+      "precio": "$ 1200",
       "imagen": "https://storage.googleapis.com/a1aa/image/ips8A3imPMZ8ENtWWAgMZ9wAEoi5BBDf9xPtE6OK5cNsGB8JA.jpg"
     },
     {
-      "id": "2",
-      "nombre": "Intercomunicador de video IP Dahua VTO2111D-WP con cámara de 1MP y visión nocturna",
-      "precio": "150000",
+      "id": "e397",
+      "nombre": "Producto 2",
+      "precio": "$ 500",
       "imagen": "https://storage.googleapis.com/a1aa/image/ips8A3imPMZ8ENtWWAgMZ9wAEoi5BBDf9xPtE6OK5cNsGB8JA.jpg"
     },
     {
-      "id": "3",
-      "nombre": "Intercomunicador de video IP Dahua VTO2111D-WP con cámara de 1MP y visión nocturna",
-      "precio": "150000",
+      "id": "11eb",
+      "nombre": "Producto 3",
+      "precio": "$ 800000",
       "imagen": "https://storage.googleapis.com/a1aa/image/ips8A3imPMZ8ENtWWAgMZ9wAEoi5BBDf9xPtE6OK5cNsGB8JA.jpg"
     },
     {
-      "id": "4",
-      "nombre": "Intercomunicador de video IP Dahua VTO2111D-WP con cámara de 1MP y visión nocturna",
-      "precio": "150000",
-      "imagen": "https://storage.googleapis.com/a1aa/image/ips8A3imPMZ8ENtWWAgMZ9wAEoi5BBDf9xPtE6OK5cNsGB8JA.jpg"
-    },
-    {
-      "id": "5",
-      "nombre": "Intercomunicador de video IP Dahua VTO2111D-WP con cámara de 1MP y visión nocturna",
-      "precio": "150000",
+      "id": "9d05",
+      "nombre": "Producto 5",
+      "precio": "$ 12000",
       "imagen": "https://storage.googleapis.com/a1aa/image/ips8A3imPMZ8ENtWWAgMZ9wAEoi5BBDf9xPtE6OK5cNsGB8JA.jpg"
     }
   ]
